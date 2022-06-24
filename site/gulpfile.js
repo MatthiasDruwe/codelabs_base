@@ -250,7 +250,7 @@ gulp.task('copy', (callback) => {
 gulp.task('minify:css', () => {
   const srcs = [
     'dist/**/*.css',
-    '!dist/codelabs_base/**/*',
+    '!dist/codelabs/**/*',
     '!dist/elements/codelab-elements/*.css',
   ]
   return gulp.src(srcs, { base: 'dist/' })
@@ -262,7 +262,7 @@ gulp.task('minify:css', () => {
 gulp.task('minify:html', () => {
   const srcs = [
     'dist/**/*.html',
-    '!dist/codelabs_base/**/*',
+    '!dist/codelabs/**/*',
   ]
   return gulp.src(srcs, { base: 'dist/' })
     .pipe(postcss(opts.postcss()))
@@ -274,7 +274,7 @@ gulp.task('minify:html', () => {
 gulp.task('minify:js', () => {
   const srcs = [
     'dist/**/*.js',
-    '!dist/codelabs_base/**/*',
+    '!dist/codelabs/**/*',
     '!dist/elements/codelab-elements/*.js',
   ]
   return gulp.src(srcs, { base: 'dist/' })
