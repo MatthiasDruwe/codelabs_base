@@ -234,7 +234,7 @@
     } else {
       let script = document.createElement('script');
       script.async = true;
-      script.src = '/codelabs/bower_components/webcomponentsjs/webcomponents-lite.min.js';
+      script.src = '/codelabs_base/bower_components/webcomponentsjs/webcomponents-lite.min.js';
       document.head.appendChild(script);
     }
   }

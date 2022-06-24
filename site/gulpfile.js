@@ -250,7 +250,7 @@ gulp.task('copy', (callback) => {
 gulp.task('minify:css', () => {
   const srcs = [
     'dist/**/*.css',
-    '!dist/codelabs/**/*',
+    '!dist/codelabs_base/**/*',
     '!dist/elements/codelab-elements/*.css',
   ]
   return gulp.src(srcs, { base: 'dist/' })
@@ -262,7 +262,7 @@ gulp.task('minify:css', () => {
 gulp.task('minify:html', () => {
   const srcs = [
     'dist/**/*.html',
-    '!dist/codelabs/**/*',
+    '!dist/codelabs_base/**/*',
   ]
   return gulp.src(srcs, { base: 'dist/' })
     .pipe(postcss(opts.postcss()))
@@ -274,7 +274,7 @@ gulp.task('minify:html', () => {
 gulp.task('minify:js', () => {
   const srcs = [
     'dist/**/*.js',
-    '!dist/codelabs/**/*',
+    '!dist/codelabs_base/**/*',
     '!dist/elements/codelab-elements/*.js',
   ]
   return gulp.src(srcs, { base: 'dist/' })
@@ -555,7 +555,7 @@ const generateView = () => {
     const all = collectMetadata();
 
     // Calculate URL parameters to append.
-    let codelabUrlParams = 'index=' + encodeURIComponent('/codelabs/' + view.url);
+    let codelabUrlParams = 'index=' + encodeURIComponent('/codelabs_base/' + view.url);
     if (view.ga || args.indexGa) {
       let viewGa = args.indexGa ? args.indexGa : view.ga;
       codelabUrlParams += '&viewga=' + viewGa;
@@ -649,7 +649,7 @@ const viewFuncs = {
         url = `${url}?${params}`;
       }
       if (url.length > 0 && url[0] !== '/') {
-        url = `/codelabs/${url}`;
+        url = `/codelabs_base/${url}`;
       }
       return url;
     }

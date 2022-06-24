@@ -24,13 +24,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   <title>{{view.title}}</title>
 
-  <link rel="stylesheet" href="/codelabs/styles/main.css">
+  <link rel="stylesheet" href="/codelabs_base/styles/main.css">
 
   {% if view.customStyle %}
   <link rel="stylesheet" href="{{view.customStyle}}">
   {%- endif %}
 
-  <link rel="import" href="/codelabs/elements/elements.html">
+  <link rel="import" href="/codelabs_base/elements/elements.html">
 
   <style is="custom-style">
     :root {
@@ -59,15 +59,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="#455a64">
   <meta name="apple-mobile-web-app-title" content="{{view.title}}">
-  <link rel="apple-touch-icon" sizes="180x180" href="/codelabs/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/codelabs/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="194x194" href="/codelabs/images/favicons/favicon-194x194.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/codelabs/images/favicons/android-chrome-192x192.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/codelabs/images/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/codelabs_base/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/codelabs_base/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="/codelabs_base/images/favicons/favicon-194x194.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/codelabs_base/images/favicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/codelabs_base/images/favicons/favicon-16x16.png">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="mask-icon" href="/codelabs/images/favicons/safari-pinned-tab.svg" color="#455a64">
+  <link rel="mask-icon" href="/codelabs_base/images/favicons/safari-pinned-tab.svg" color="#455a64">
   <meta name="msapplication-TileColor" content="#455a64">
-  <meta name="msapplication-TileImage" content="/codelabs/images/favicons/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="/codelabs_base/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#455a64">
 
   <meta name="og:type" property="og:type" content="website" />
@@ -77,8 +77,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta name="og:site_name" property="og:site_name" content="Codelabs" />
   <meta name="og:determiner" property="og:determiner" content="the" />
   <meta name="og:locale" property="og:locale" content="en_US" />
-  <meta name="og:image" property="og:image" content="/codelabs/images/og-image.png" />
-  <meta name="og:image:url" property="og:image:url" content="/codelabs/images/og-image.png" />
+  <meta name="og:image" property="og:image" content="/codelabs_base/images/og-image.png" />
+  <meta name="og:image:url" property="og:image:url" content="/codelabs_base/images/og-image.png" />
   <meta name="og:image:type" property="og:image:type" content="image/png" />
   <meta name="og:image:width" property="og:image:width" content="1200" />
   <meta name="og:image:height" property="og:image:height" content="1200" />
@@ -96,8 +96,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     {% raw %}
     <div id="mainToolbar" class="paper-header">
       <div class="site-width layout horizontal center self-stretch">
-        <a href="/codelabs">
-          <img src="/codelabs/images/logo.png" class="logo-devs" alt="Codelabs Logo">
+        <a href="/codelabs_base">
+          <img src="/codelabs_base/images/logo.png" class="logo-devs" alt="Codelabs Logo">
         </a>
         <div id="searchbar">
           <paper-input-container no-label-float>
@@ -153,7 +153,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <paper-listbox id="eventList" slot="dropdown-content" class="dropdown-content">
             {%- for view in views -%}
             {%- if view.id != 'default' && !view.hidden -%}
-            <a href="/codelabs/{{view.url}}" tabindex="-1">
+            <a href="/codelabs_base/{{view.url}}" tabindex="-1">
               <paper-item>{{view.title}}</paper-item>
             </a>
             {%- endif -%}

@@ -61,7 +61,7 @@ $color-dotnet-purple: #512bd4;
   }
 
   %icon-#{$icon} {
-    background-image: url("/codelabs/images/icons/#{$icon}");
+    background-image: url("/codelabs_base/images/icons/#{$icon}");
   }
 
   @each $category in $categories {

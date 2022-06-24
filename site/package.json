@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "serve": "gulp serve:dist --codelabs-dir=../codelabs && rm dist/codelabs && cp -r ../codelabs dist",
-    "dist": "gulp dist --codelabs-dir=../codelabs  --base-url=https://matthiasdruwe.github.io/codelabs/ && rm dist/codelabs && cp -r ../codelabs dist"
+    "serve": "gulp serve:dist --codelabs-dir=../codelabs_base && rm dist/codelabs_base && cp -r ../codelabs_base dist",
+    "dist": "gulp dist --codelabs-dir=../codelabs_base  --base-url=https://matthiasdruwe.github.io/codelabs_base/ && rm dist/codelabs_base && cp -r ../codelabs_base dist"
   },
   "private": true,
   "devDependencies": {
