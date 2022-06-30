@@ -63,16 +63,10 @@ Lijst voorbeeld met nummers en letters:
 
 ### filmpjes
 
-![BigBunny](assets/Big_Buck_Bunny_first_23_seconds_1080p.ogv)
 
 <video id="nP-nMZpLM1A"></video>
 
 ### Embed an iframe
 ![https://codepen.io/tzoght/embed/yRNZaP](assets/odisee.png)
 
-## Tweede pagina
-Duration: 1:00
-
-<button>
-  [Download SDK](https://www.google.com)
-</button>
+[[import page2.md]]
