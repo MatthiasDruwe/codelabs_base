@@ -3,7 +3,7 @@
   "format": "html",
   "prefix": "https://matthiasdruwe.github.io/codelabs/elements",
   "mainga": "UA-49880327-14",
-  "updated": "2022-06-24T21:29:41Z",
+  "updated": "2022-06-30T10:27:51Z",
   "id": "voorbeeld-summary",
   "duration": 0,
   "title": "Voorbeeld Markdown",
@@ -16,9 +16,7 @@
   "category": [
     "javascript"
   ],
-  "tags": [
-    "ptt"
-  ],
+  "tags": [],
   "feedback": "mailto:matthias.druwe@gmail.com?subject=Problems with: BmiCalculator-met-MVVM",
   "url": "voorbeeld-summary"
 }
