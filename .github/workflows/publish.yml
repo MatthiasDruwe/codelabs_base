@@ -30,7 +30,7 @@ jobs:
 
       - name: Build
         working-directory: claat
-        run: go build -v ./...
+        run: make
       - run: |
           claat version
           mkdir codelabs
