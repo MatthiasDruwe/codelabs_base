@@ -24,19 +24,23 @@ Duration: 1:00
 **Vet**
 
 Positive
-: This will appear in a positive info box.
+: Groene box.
 
 Negative
-: This will appear in a negative info box.
+: Rode box.
 
 
-```console
-This block will not be syntax highlighted.
+```html
+<div>
+    <p>
+        Deze syntax is met html highlighting
+    </p>
+</div>
 ```
 
 
-```go
-This block will be highlighted as Go source code.
+```javascript
+let text = 'Deze syntax is met javascript highlighting';
 ```
 
 ### List
@@ -51,26 +55,26 @@ Lijst voorbeeld met nummers en letters:
 1. item 1
 2. item 2
 3. item 3
-    1. item a 
+    1. item 1.1
 
 ### Images & gifs
 
-
 ![odisee](assets/odisee.png)
-
 
 ![test](assets/giphy.webp)
 
 ### filmpjes
 
-
-
+<video id="nP-nMZpLM1A&t=3s"></video>
 
 ### Embed an iframe
+
 ![https://codepen.io/tzoght/embed/yRNZaP](assets/odisee.png)
 
-<button>[Empty SDK](https://www.google.com)</button>
+### Buttons
+<button>[SDK](https://www.google.com)</button>
 <button>[Download SDK](https://www.google.com)</button>
-## page 2
 
+## page 2
+    
 <<markdowns/Voorbeeld2/fragments/voorbeeld2-fragment1.md>>

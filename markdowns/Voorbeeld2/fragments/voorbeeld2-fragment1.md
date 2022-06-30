@@ -1,7 +1,3 @@
-### test
-
-<button>[Download SDK](https://www.google.com)</button>
-
-```java
-test
-```
+### Fragmenten
+Deze pagina wordt ingeladen als fragment.
+Dit is in het bijzonder handig wanneer je codelab enorm groot wordt.
