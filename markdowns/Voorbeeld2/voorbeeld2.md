@@ -37,14 +37,19 @@ Lijst voorbeeld met nummers en letters:
 3. item 3
     1. item a 
 
-### Images
+### Images & gifs
 
 Dit is een image met een lokaal path
+
 ![odisee](assets/odisee.png)
 
-Dit is een online image met een full path
-
-
 Ook gifs kunnen 
+
 ![test](assets/giphy.webp)
+
+### filmpjes
+
+![google.io](https://www.youtube.com/watch?v=nP-nMZpLM1A)
+
+
 ## Tweede pagina
