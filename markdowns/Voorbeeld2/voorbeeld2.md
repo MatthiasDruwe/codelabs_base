@@ -49,7 +49,6 @@ Ook gifs kunnen
 
 ### filmpjes
 
-![google.io](https://www.youtube.com/watch?v=nP-nMZpLM1A)
 
 ![codepen](https://codepen.io/DonKarlssonSan/embed/YzaKvNJ?default-tab=html%2Cresult)
 ## Tweede pagina
