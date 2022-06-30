@@ -9,6 +9,7 @@ feedback link: mailto:matthias.druwe@gmail.com?subject=Problems with: BmiCalcula
 # Voorbeeld Markdown
 
 ## Eerste pagina
+Duration: 1:00
 
 ### Subtitel 1
 
@@ -22,6 +23,21 @@ feedback link: mailto:matthias.druwe@gmail.com?subject=Problems with: BmiCalcula
 
 **Vet**
 
+Positive
+: This will appear in a positive info box.
+
+Negative
+: This will appear in a negative info box.
+
+
+```console
+This block will not be syntax highlighted.
+```
+
+
+```go
+This block will be highlighted as Go source code.
+```
 
 ### List
 
@@ -47,7 +63,6 @@ Lijst voorbeeld met nummers en letters:
 
 ### filmpjes
 
-### Add an Image
 ![BigBunny](assets/Big_Buck_Bunny_first_23_seconds_1080p.ogv)
 
 <video id="nP-nMZpLM1A"></video>
@@ -56,3 +71,8 @@ Lijst voorbeeld met nummers en letters:
 ![https://codepen.io/tzoght/embed/yRNZaP](assets/odisee.png)
 
 ## Tweede pagina
+Duration: 1:00
+
+<button>
+  [Download SDK](https://www.google.com)
+</button>
