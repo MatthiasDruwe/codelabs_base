@@ -51,9 +51,10 @@ Ook gifs kunnen
 
 ### Add an Image
 Adding an image!
-![image_caption](https://googlecloud.tips/img/031/codelabs.png)
+
+
 
 ### Embed an iframe
-![https://codepen.io/tzoght/embed/yRNZaP](https://en.wikipedia.org/wiki/File:Example.jpg "Try Me Publisher")
+![https://codepen.io/tzoght/embed/yRNZaP]()
 
 ## Tweede pagina
