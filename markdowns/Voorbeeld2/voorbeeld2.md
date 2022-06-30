@@ -50,11 +50,11 @@ Ook gifs kunnen
 ### filmpjes
 
 ### Add an Image
-![https://www.youtube.com/watch?v=nP-nMZpLM1A]()
+![https://www.youtube.com/watch?v=nP-nMZpLM1A](assets/odisee.png)
 
 
 
 ### Embed an iframe
-![https://codepen.io/tzoght/embed/yRNZaP]()
+![https://codepen.io/tzoght/embed/yRNZaP](assets/odisee.png)
 
 ## Tweede pagina
