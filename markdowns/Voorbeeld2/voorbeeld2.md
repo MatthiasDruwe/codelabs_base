@@ -72,4 +72,4 @@ Lijst voorbeeld met nummers en letters:
 
 ## page 2
 
-<<Voorbeel2/fragments/voorbeeld2-fragment1.md>>
+<<fragments/voorbeeld2-fragment1.md>>
