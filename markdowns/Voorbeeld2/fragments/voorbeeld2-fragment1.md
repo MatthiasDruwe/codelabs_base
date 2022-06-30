@@ -1,8 +1,6 @@
 ### test
 
-<button>
-  [Download SDK](https://www.google.com)
-</button>
+<button>[Download SDK](https://www.google.com)</button>
 
 ```java
 test
