@@ -46,5 +46,5 @@ Dit is een online image met een full path
 
 
 Ook gifs kunnen 
-
+![test](assets/giphy.webp)
 ## Tweede pagina
