@@ -76,5 +76,6 @@ Lijst voorbeeld met nummers en letters:
 <button>[Download SDK](https://www.google.com)</button>
 
 ## page 2
+duration: 2:00
     
 <<markdowns/Voorbeeld2/fragments/voorbeeld2-fragment1.md>>
