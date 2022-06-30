@@ -65,7 +65,7 @@ Lijst voorbeeld met nummers en letters:
 
 ### filmpjes
 
-<video id="nP-nMZpLM1A&t=3s"></video>
+<video id="nP-nMZpLM1A"></video>
 
 ### Embed an iframe
 
