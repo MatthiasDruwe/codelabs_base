@@ -70,7 +70,7 @@ Lijst voorbeeld met nummers en letters:
 ![https://codepen.io/tzoght/embed/yRNZaP](assets/odisee.png)
 
 <button>
-  [Download SDK](https://www.google.com)
+  [*Download SDK*](https://www.google.com)
 </button>
 ## page 2
 
