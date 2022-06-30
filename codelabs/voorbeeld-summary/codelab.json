@@ -3,20 +3,22 @@
   "format": "html",
   "prefix": "https://matthiasdruwe.github.io/codelabs/elements",
   "mainga": "UA-49880327-14",
-  "updated": "2022-06-30T10:27:51Z",
+  "updated": "2022-06-30T10:37:06Z",
   "id": "voorbeeld-summary",
   "duration": 0,
   "title": "Voorbeeld Markdown",
   "summary": "Voorbeeld summary",
-  "source": "markdowns/Voorbeeld/voorbeeld.md",
+  "source": "markdowns/Voorbeeld2/voorbeeld2.md",
   "theme": "",
   "status": [
     "draft"
   ],
   "category": [
-    "javascript"
+    "android"
   ],
-  "tags": [],
+  "tags": [
+    "default"
+  ],
   "feedback": "mailto:matthias.druwe@gmail.com?subject=Problems with: BmiCalculator-met-MVVM",
   "url": "voorbeeld-summary"
 }
