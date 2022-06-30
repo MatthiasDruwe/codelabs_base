@@ -32,10 +32,10 @@ jobs:
         working-directory: claat
         run: go build -v ./...
       - run: |
-          claat/claat version
+          claat version
           mkdir codelabs
           for f in `ls markdowns/*/*.md`; do 
-          claat/claat export -prefix https://matthiasdruwe.github.io/codelabs/elements -o codelabs/ $f;
+          claat export -prefix https://matthiasdruwe.github.io/codelabs/elements -o codelabs/ $f;
           done
       - uses: actions/setup-node@v2
         with:
