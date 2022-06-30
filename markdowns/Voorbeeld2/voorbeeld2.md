@@ -1,8 +1,8 @@
 author: Matthias Druwé
 summary: Voorbeeld summary
 id: voorbeeld-summary
-categories: javascript
-tags: ptt
+categories: Android
+tags: default
 status: Draft
 feedback link: mailto:matthias.druwe@gmail.com?subject=Problems with: BmiCalculator-met-MVVM
 
