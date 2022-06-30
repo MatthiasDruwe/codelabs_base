@@ -39,18 +39,16 @@ Lijst voorbeeld met nummers en letters:
 
 ### Images & gifs
 
-Dit is een image met een lokaal path
 
 ![odisee](assets/odisee.png)
 
-Ook gifs kunnen 
 
 ![test](assets/giphy.webp)
 
 ### filmpjes
 
 ### Add an Image
-![https://www.youtube.com/watch?v=nP-nMZpLM1A](assets/odisee.png)
+![https://youtu.be/nP-nMZpLM1A](assets/odisee.png)
 
 
 
