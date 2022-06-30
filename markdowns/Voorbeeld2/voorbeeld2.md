@@ -22,7 +22,6 @@ feedback link: mailto:matthias.druwe@gmail.com?subject=Problems with: BmiCalcula
 
 **Vet**
 
-***vet cursief***
 
 ### List
 
@@ -46,4 +45,7 @@ Dit is een image met een lokaal path
 Dit is een online image met een full path
 ![odisee](https://static.nieuwsblad.be/Assets/Images_Upload/2019/09/17/odisee_patroon_(3)-1.png)
 
+
+Ook gifs kunnen 
+![text](https://static.wikia.nocookie.net/glee/images/2/27/Burn_computer.gif/revision/latest?cb=20121109111615)
 ## Tweede pagina
