@@ -43,7 +43,6 @@ Dit is een image met een lokaal path
 ![odisee](assets/odisee.png)
 
 Dit is een online image met een full path
-![odisee](https://static.nieuwsblad.be/Assets/Images_Upload/2019/09/17/odisee_patroon_(3)-1.png)
 
 
 Ook gifs kunnen 
