@@ -19,15 +19,23 @@ jobs:
         uses: chetan/git-restore-mtime-action@v1
       - uses: actions/setup-go@v2.1.5
       - run: go version
+      - name: Set up Go
+        uses: actions/setup-go@37335c7bb261b353407cff977110895fa0b4f7d8
+        with:
+          go-version: 1.16
+
+      - name: Vet
+        working-directory: claat
+        run: go vet ./...
+
+      - name: Build
+        working-directory: claat
+        run: make
       - run: |
-          export PATH=$PATH:$(go env GOPATH)/bin
-          mkdir -p $(go env GOPATH)/bin
-          curl -L -o $(go env GOPATH)/bin/claat https://github.com/googlecodelabs/tools/releases/download/v2.2.3/claat-linux-amd64
-          chmod +x $(go env GOPATH)/bin/claat
-          claat version
+          claat/bin/claat version
           mkdir codelabs
           for f in `ls markdowns/*/*.md`; do 
-          claat export -prefix https://matthiasdruwe.github.io/codelabs/elements -o codelabs/ $f;
+          claat/bin/claat export -prefix https://matthiasdruwe.github.io/codelabs/elements -o codelabs/ $f;
           done
       - uses: actions/setup-node@v2
         with:
