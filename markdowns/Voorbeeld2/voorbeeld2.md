@@ -71,4 +71,5 @@ Lijst voorbeeld met nummers en letters:
 
 
 ## page 2
-<<fragments/page2.md>>
+
+<<fragments/voorbeeld2-fragment1.md>>
