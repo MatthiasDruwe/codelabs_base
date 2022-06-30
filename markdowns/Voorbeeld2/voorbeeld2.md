@@ -24,4 +24,18 @@ feedback link: mailto:matthias.druwe@gmail.com?subject=Problems with: BmiCalcula
 
 ***vet cursief***
 
+### List
+
+Lijst voorbeeld met dots:
+* Item 1
+* Item 2
+* Item 3
+    * item 3.1
+
+Lijst voorbeeld met nummers en letters:
+1. item 1
+2. item 2
+3. item 3
+    a. item a 
+
 ## Tweede pagina
