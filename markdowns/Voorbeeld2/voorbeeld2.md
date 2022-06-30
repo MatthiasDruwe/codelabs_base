@@ -69,4 +69,4 @@ Lijst voorbeeld met nummers en letters:
 ### Embed an iframe
 ![https://codepen.io/tzoght/embed/yRNZaP](assets/odisee.png)
 
-[[import page2.md]]
+<<fragments/page2.md>>
