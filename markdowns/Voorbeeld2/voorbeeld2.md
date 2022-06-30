@@ -69,6 +69,7 @@ Lijst voorbeeld met nummers en letters:
 ### Embed an iframe
 ![https://codepen.io/tzoght/embed/yRNZaP](assets/odisee.png)
 
+<button>[Empty SDK](https://www.google.com)</button>
 <button>[Download SDK](https://www.google.com)</button>
 ## page 2
 
