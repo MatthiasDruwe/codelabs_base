@@ -27,7 +27,7 @@ Positive
 : Groene box.
 
 Negative
-: Rode box.
+: Oranje box.
 
 
 ```html
